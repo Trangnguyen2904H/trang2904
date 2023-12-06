@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiobiology Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 36px;
+            color: #22668D;
+            position: relative;
+        }
+
+        .sticker1,
+        .sticker2,
+        .sticker3 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #FFCC70;
+            border-radius: 50%;
+        }
+
+        .sticker1 {
+            top: 20px;
+            left: 20px;
+        }
+
+        .sticker2 {
+            top: 20px;
+            right: 20px;
+        }
+
+        .sticker3 {
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        form {
+            background-color: #FFFADD;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 10px;
+            width: 300px;
+            overflow-y: auto;
+            max-height: 400px; /* Set your preferred height */
+        }
+
+        table {
+            margin-top: 30px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #22668D;
+            padding: 10px;
+            text-align: center;
+            background-color: #FFFADD;
+        }
+
+        th {
+            background-color: #22668D;
+            color: #FFFADD;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Radiobiology
+        <div class="sticker1"></div>
+        <div class="sticker2"></div>
+        <div class="sticker3"></div>
+    </h1>
+
+    <div class="form-container">
+        <form id="form1">
+            <h2>Biologically Effective Dose</h2>
+            The α/β ratio represents the dose at which linear and quadratic components of cell killing are equal for a given tissue. A low α/β ratio (~3) indicates a late response, and a high ratio (~10) suggests an early response in tissue. In general, early responding tissue proliferates quickly while late responding tissues tend to be slower growing with a longer cell cycle. The fast proliferation in early responding tissue causes a majority of cells to spend time in the most radioresistant (S) phase. Increasing dose to overcome this can risk exceeding tissue tolerances, instead, treatments take advantage of a process called self-sensitizing. After irradiation, the surviving cells in highly proliferating tissues redistribute across other phases. By hyperfractionating, cells in radiosensitive phases are killed and then replaced by the surviving cells from more radioresistant phases. The second closely timed fraction, in turn, targets the newly redistributed cells. For late responding tissues (low α/β ratio), radioresistance arises from cells in early or resting radioresistant phases (G1, G0). Conventionally this is overcome using hypofractionated schemes might provide superior tumor control due to a more robust response in the linear portion.
+            <p>Biologically Effective Dose</p>
+        </form>
+
+        <form id="form2">
+            <h2>Regimen Change</h2>
+            The α/β ratio represents the dose at which linear and quadratic components of cell killing are equal for a given tissue. A low α/β ratio (~3) indicates a late response, and a high ratio (~10) suggests an early response in tissue. In general, early responding tissue proliferates quickly while late responding tissues tend to be slower growing with a longer cell cycle. The fast proliferation in early responding tissue causes a majority of cells to spend time in the most radioresistant (S) phase. Increasing dose to overcome this can risk exceeding tissue tolerances, instead, treatments take advantage of a process called self-sensitizing. After irradiation, the surviving cells in highly proliferating tissues redistribute across other phases. By hyperfractionating, cells in radiosensitive phases are killed and then replaced by the surviving cells from more radioresistant phases. The second closely timed fraction, in turn, targets the newly redistributed cells. For late responding tissues (low α/β ratio), radioresistance arises from cells in early or resting radioresistant phases (G1, G0). Conventionally this is overcome using hypofractionated schemes might provide superior tumor control due to a more robust response in the linear portion.
+            <p>Form 2 content...</p>
+            <!-- Add more content if needed -->
+        </form>
+
+        <form id="form3">
+            <h2>Dosage Error</h2>
+            The α/β ratio represents the dose at which linear and quadratic components of cell killing are equal for a given tissue. A low α/β ratio (~3) indicates a late response, and a high ratio (~10) suggests an early response in tissue. In general, early responding tissue proliferates quickly while late responding tissues tend to be slower growing with a longer cell cycle. The fast proliferation in early responding tissue causes a majority of cells to spend time in the most radioresistant (S) phase. Increasing dose to overcome this can risk exceeding tissue tolerances, instead, treatments take advantage of a process called self-sensitizing. After irradiation, the surviving cells in highly proliferating tissues redistribute across other phases. By hyperfractionating, cells in radiosensitive phases are killed and then replaced by the surviving cells from more radioresistant phases. The second closely timed fraction, in turn, targets the newly redistributed cells. For late responding tissues (low α/β ratio), radioresistance arises from cells in early or resting radioresistant phases (G1, G0). Conventionally this is overcome using hypofractionated schemes might provide superior tumor control due to a more robust response in the linear portion.
+            <p>Form 3 content...</p>
+            <!-- Add more content if needed -->
+        </form>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Section</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Section 1</td>
+                <td><a href="#form1">Form 1</a></td>
+            </tr>
+            <tr>
+                <td>Section 2</td>
+                <td><a href="#form2">Form 2</a></td>
+            </tr>
+            <tr>
+                <td>Section 3</td>
+                <td><a href="#form3">Form 3</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
